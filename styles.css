@@ -1,0 +1,75 @@
+/* --- General Body and Typography Styles --- */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+/* --- The CSS Box Model in Action --- */
+
+.card {
+    /* Padding: Pushes content away from the border, creating internal space. */
+    padding: 20px;
+    
+    /* Border: A clear line around the element. */
+    border: 2px solid #3498db;
+    
+    /* Margin: Pushes elements away from each other, creating external space. */
+    margin-bottom: 25px;
+    
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Visualize the Box Model with different colors */
+.card:nth-child(1) { background-color: #eaf2f8; } /* Light blue */
+.card:nth-child(2) { background-color: #d1e5f0; } /* Slightly darker blue */
+.card:nth-child(3) { background-color: #bbd7e4; } /* Another variation */
+.card:nth-child(4) { background-color: #a3c3d5; } /* Final variation */
+
+/* --- Button Styling with Box Model --- */
+.button-container {
+    text-align: center;
+    /* Use margin to create space for the container itself. */
+    margin-top: 40px;
+}
+
+.styled-button {
+    background-color: #27ae60;
+    color: white;
+    font-size: 16px;
+    
+    /* Padding: Adds space inside the button for a larger click area. */
+    padding: 12px 25px;
+    
+    /* Border: A subtle border for visual definition. */
+    border: 1px solid #2ecc71;
+    
+    /* Margin: Creates space between the buttons. */
+    margin: 0 10px;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* --- Footer Styling --- */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #777;
+}
